@@ -97,13 +97,13 @@ color: white;
 }
 #eye-1{
   position: absolute;
-  top: 380px;
-  right: 670px;
+  top: 560px;
+  right: 573px;
 }
 #eye{
   position: absolute;
-  top: 455px;
-  right: 670px;
+  top: 475px;
+  right: 605px;
 }
 .sociali-cons{
 display: flex;
