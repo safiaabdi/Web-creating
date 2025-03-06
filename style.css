@@ -4,15 +4,19 @@
 
 }
 .image-container img{
-  height:800px;
-  width: 600px;
+  height:700px;
+  width: 700px;
   border-right: solid 1px pink;
   margin-right: 2cm;
   padding-right: 2cm;
+  margin-top: 20px;
+  
   
   
 }
 .form-container{
+margin-top: 100px;
+font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 
 }
 input[type=text], input[type=password],input[type=email]{
@@ -31,10 +35,15 @@ input[type=text], input[type=password],input[type=email]{
     margin: 2px;
     border: 1px solid black;
     width: 500px;
+    color: white;
 
 }
 .heading{
   color: purple;
+  text-align: center;
+  margin-top: 60px;
+  font-size: larger;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 .name{
   display:flex;
@@ -70,24 +79,27 @@ input[type=text], input[type=password],input[type=email]{
 .or-lines{
   position: relative;
   max-width: 400px;
-  margin: auto;
+  margin: 40px auto;
   text-align: center;
+  color: black;
+  
 }
 .or-lines:before{
   content:" ";
   height: 2px;
   width: 180px;
-  background: black;
+  background:purple;
   display: block;
   position: absolute;
   top: 50%;
   left: 0;
+  
 }
 .or-lines:after{
   content:" ";
   height: 2px;
   width: 180px;
-  background: black;
+  background: purple;
   display: block;
   position: absolute;
   top: 50%;
@@ -104,6 +116,7 @@ background-color: white;
 color: blue;
 font-size: x-large;
 padding: 15px;
+display: flex;
   
 }
 
@@ -113,6 +126,7 @@ color: black;
 padding: 20px;
 font-size: x-large;
 margin: 30px 20px;
+display: flex;
 
 }
 #name{
@@ -120,6 +134,7 @@ padding: 15px;
 margin: 2px;
 border: 1px solid black;
 width: 165px;
+color: white;
 }
 
 
@@ -138,6 +153,17 @@ width: 165px;
   position: absolute;
   top: 455px;
   right: 670px;
+}
+.sociali-cons{
+display: flex;
+}
+.icons{
+  display: flex;
+  top: 100px;
+  margin: 15px;
+  justify-content: center;
+  gap: 100px;
+
 }
 
 
