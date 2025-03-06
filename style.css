@@ -1,7 +1,6 @@
 .whole-container{
   display :flex;
   background-color: rgb(253, 230, 253);
-
 }
 .image-container img{
   height:700px;
@@ -9,15 +8,11 @@
   border-right: solid 1px pink;
   margin-right: 2cm;
   padding-right: 2cm;
-  margin-top: 20px;
-  
-  
-  
+  margin-top: 20px; 
 }
 .form-container{
 margin-top: 100px;
 font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-
 }
 input[type=text], input[type=password],input[type=email]{
   padding: 20px;
@@ -28,15 +23,12 @@ input[type=text], input[type=password],input[type=email]{
 .name-container {
   display: flex;
 }
-
-
   .input[type=text], input[type=password],input [type=text]input[type=email]{
     padding: 25px;
     margin: 2px;
     border: 1px solid black;
     width: 500px;
     color: white;
-
 }
 .heading{
   color: purple;
@@ -50,16 +42,7 @@ input[type=text], input[type=password],input[type=email]{
   gap: 3px;
   padding-top: 23px;
   width: 140px;
-
 }
-  
-
-
-
-  
-
-
-
 .submitbutton{
   background-color:purple;
   color: white;
@@ -70,19 +53,15 @@ input[type=text], input[type=password],input[type=email]{
   width: 98%;
   opacity: 0.7;
 }
-
 .submitbutton:hover{
   opacity:1;
 }
-
-
 .or-lines{
   position: relative;
   max-width: 400px;
   margin: 40px auto;
   text-align: center;
   color: black;
-  
 }
 .or-lines:before{
   content:" ";
@@ -93,7 +72,6 @@ input[type=text], input[type=password],input[type=email]{
   position: absolute;
   top: 50%;
   left: 0;
-  
 }
 .or-lines:after{
   content:" ";
@@ -105,30 +83,6 @@ input[type=text], input[type=password],input[type=email]{
   top: 50%;
   right: 0;
 }
-
-
-
-
-
-.fa-facebook{
-margin: 55px;
-background-color: white;
-color: blue;
-font-size: x-large;
-padding: 15px;
-display: flex;
-  
-}
-
-.fa-apple{
-background-color: white;
-color: black;
-padding: 20px;
-font-size: x-large;
-margin: 30px 20px;
-display: flex;
-
-}
 #name{
 padding: 15px;
 margin: 2px;
@@ -136,9 +90,6 @@ border: 1px solid black;
 width: 165px;
 color: white;
 }
-
-
-
 .image.container{
   border-right: solid 1px pink;
   margin-right: 2cm;
@@ -163,7 +114,6 @@ display: flex;
   margin: 15px;
   justify-content: center;
   gap: 100px;
-
 }
 
 
