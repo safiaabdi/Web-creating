@@ -1,0 +1,151 @@
+.whole-container{
+  display :flex;
+  background-color: rgb(253, 230, 253);
+
+}
+.image-container img{
+  height:800px;
+  width: 600px;
+  border-right: solid 1px pink;
+  margin-right: 2cm;
+  padding-right: 2cm;
+  
+  
+}
+.form-container{
+
+}
+input[type=text], input[type=password],input[type=email]{
+  padding: 20px;
+  margin: 2px;
+  border: 1px solid black;
+  width: 390px;
+}
+.name-container {
+  display: flex;
+}
+
+
+  .input[type=text], input[type=password],input [type=text]input[type=email]{
+    padding: 25px;
+    margin: 2px;
+    border: 1px solid black;
+    width: 500px;
+
+}
+.heading{
+  color: purple;
+}
+.name{
+  display:flex;
+  gap: 3px;
+  padding-top: 23px;
+  width: 140px;
+
+}
+  
+
+
+
+  
+
+
+
+.submitbutton{
+  background-color:purple;
+  color: white;
+  padding: 16px 20px;
+  margin: 8px 0;
+  border: none;
+  cursor: pointer;
+  width: 98%;
+  opacity: 0.7;
+}
+
+.submitbutton:hover{
+  opacity:1;
+}
+
+
+.or-lines{
+  position: relative;
+  max-width: 400px;
+  margin: auto;
+  text-align: center;
+}
+.or-lines:before{
+  content:" ";
+  height: 2px;
+  width: 180px;
+  background: black;
+  display: block;
+  position: absolute;
+  top: 50%;
+  left: 0;
+}
+.or-lines:after{
+  content:" ";
+  height: 2px;
+  width: 180px;
+  background: black;
+  display: block;
+  position: absolute;
+  top: 50%;
+  right: 0;
+}
+
+
+
+
+
+.fa-facebook{
+margin: 55px;
+background-color: white;
+color: blue;
+font-size: x-large;
+padding: 15px;
+  
+}
+
+.fa-apple{
+background-color: white;
+color: black;
+padding: 20px;
+font-size: x-large;
+margin: 30px 20px;
+
+}
+#name{
+padding: 15px;
+margin: 2px;
+border: 1px solid black;
+width: 165px;
+}
+
+
+
+.image.container{
+  border-right: solid 1px pink;
+  margin-right: 2cm;
+  padding-right: 2cm;
+}
+#eye-1{
+  position: absolute;
+  top: 380px;
+  right: 670px;
+}
+#eye{
+  position: absolute;
+  top: 455px;
+  right: 670px;
+}
+
+
+
+ 
+
+
+
+      
+      
+      
